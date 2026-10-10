@@ -12,25 +12,49 @@
 </head>
 <body>
 <h1>Política de privacidade: Painel réplica</h1>
-<p>Atualizada em 6 de outubro de 2026.</p>
+<p>Atualizada em 10 de outubro de 2026.</p>
 
 <h2>O que é</h2>
 <p>O Painel réplica é um aplicativo de uso pessoal. Ele roda só no computador do próprio
 usuário e não tem servidor na internet.</p>
 
 <h2>Que dados do Google ele acessa</h2>
-<p>Só o escopo <code>calendar.app.created</code>: criar uma agenda secundária e
-ver, criar, alterar e excluir os eventos <strong>dessa agenda</strong>. O aplicativo
-não lê as outras agendas, os contatos, os e-mails nem os arquivos do usuário.</p>
+<p>Dois escopos, cada um com autorização própria:</p>
+<ul>
+<li><code>calendar.app.created</code>: criar uma agenda secundária e ver, criar, alterar
+e excluir os eventos <strong>dessa agenda</strong>;</li>
+<li><code>gmail.send</code>: <strong>só enviar</strong> mensagens a partir da conta do
+usuário, e só para o próprio endereço do usuário.</li>
+</ul>
+<p>O aplicativo não lê as outras agendas, os contatos, a caixa de e-mail, os
+rascunhos nem os arquivos do usuário.</p>
 
 <h2>Como os dados são usados</h2>
-<p>Os dados servem só para manter a agenda "Prazos (réplica)" igual aos prazos que o
-usuário registra no aplicativo, e para perceber as mudanças feitas nela.</p>
+<p>A agenda serve só para manter "Prazos (réplica)" igual aos prazos que o usuário
+registra no aplicativo e para perceber as mudanças feitas nela. O envio de e-mail
+serve só para mandar ao próprio usuário o resumo dos prazos nos dias úteis e avisos
+de falha do aplicativo.</p>
+
+<h2>O que o e-mail contém</h2>
+<p>Texto simples, sem links, imagens nem rastreamento: a data, contagens e, para cada
+item, o código, o tipo, a prioridade, o prazo, o código do responsável, a situação e
+uma próxima ação padronizada. Só nos itens criados no próprio aplicativo vai também o
+título escrito pelo usuário, abreviado; os demais aparecem só pelo código. O aplicativo
+não guarda cópia do texto enviado. A mensagem fica na conta de e-mail do próprio
+usuário (Caixa de entrada e Enviados), que pode apagá-la.</p>
+
+<h2>Avisos no celular</h2>
+<p>O aviso no celular é enviado pelo serviço de notificações do navegador Chrome
+(Google), <strong>sem conteúdo</strong>: o serviço só fica sabendo que houve um aviso,
+quando e para qual aparelho. Os números aparecem porque o celular os busca
+diretamente no computador do usuário, pela rede privada dele.</p>
 
 <h2>Onde ficam e com quem são compartilhados</h2>
-<p>Ficam só no computador do usuário. O token de acesso é guardado no Gerenciador de
-Credenciais do Windows. Nada é vendido, transferido ou compartilhado com terceiros, e
-nada é usado para publicidade ou para treinar modelos de inteligência artificial.</p>
+<p>Os dados do aplicativo ficam só no computador do usuário; a agenda criada e os
+e-mails enviados ficam na própria conta Google do usuário. As autorizações de acesso
+são guardadas no Gerenciador de Credenciais do Windows. Nada é vendido, transferido ou
+compartilhado com terceiros, e nada é usado para publicidade ou para treinar modelos de
+inteligência artificial.</p>
 <p>O uso das informações recebidas das APIs do Google segue a
 <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de
 Dados do Usuário dos Serviços de API do Google</a>, inclusive os requisitos de Uso
@@ -39,8 +63,10 @@ Limitado.</p>
 <h2>Como revogar o acesso</h2>
 <p>A qualquer momento, em
 <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>,
-ou pelo próprio aplicativo. A agenda criada continua na conta do usuário, e ele pode
-excluí-la quando quiser.</p>
+o que remove de uma vez o acesso à agenda e o envio de e-mail. Pelo próprio aplicativo,
+o usuário pode parar só o envio de e-mail, apagando do computador a autorização
+correspondente, ou revogar tudo. A agenda criada e os e-mails já enviados continuam na
+conta do usuário, que pode excluí-los quando quiser.</p>
 
 <h2>Contato</h2>
 <p>Pelo e-mail de suporte exibido na tela de consentimento do Google.</p>
